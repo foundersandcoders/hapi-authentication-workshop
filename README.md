@@ -20,14 +20,14 @@ Just so that you don't go down a rabbit hole and spend to long on this, here are
 **facsters**
 
 Column      |     Type    |    Modifiers          
---- | --- | --- | ---
+--- | --- | ---
 id          | SERIAL       | PRIMARY KEY  NOT NULL
 name        | VARCHAR(255) | NOT NULL |
 
 **kitty**
 
 Column      |     Type    |    Modifiers          
---- | --- | --- | ---
+--- | --- | ---
 id          | SERIAL       | PRIMARY KEY  NOT NULL
 facster_id  | INTEGER      | FOREIGN_KEY REFERENCES facsters(id) |
 item        | VARCHAR(400) | NOT NULL |

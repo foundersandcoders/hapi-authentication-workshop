@@ -1,3 +1,7 @@
+**Author**: [@jsms90](https://github.com/jsms90)  
+
+**Maintainer**: [@jsms90](https://github.com/jsms90)
+
 # hapi.js Authentication Workshop
 
 Last week you will have had a brief introduction to authentication during research day. The aim of this workshop is to introduce you to the methods that you can use to authenticate users with `hapi.js`.
